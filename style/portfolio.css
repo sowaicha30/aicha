@@ -1,0 +1,23 @@
+.text h4{
+    text-align: center;
+}
+.tof {
+    margin-top: 50px;
+   border-radius: 30px;
+   box-shadow: 0 0 30px blue;
+   border: 1px solid blue;
+   background-color: hsl(80, 86%, 54%);
+}
+.h2 {
+    text-align: center;
+    font-size: 30px;
+    
+}
+span{
+        color: blue;
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}

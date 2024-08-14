@@ -1,0 +1,10 @@
+.img img{ 
+    border-radius: 50%;
+}
+.chu button{
+    border: none;
+    padding: 10px;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(4, 4, 44);
+    color: white;
+}
+form{
+   display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.awa{
+    margin-right: 10%;
+}
+input,select{
+   width: 100%;
+   padding: 10px;
+   margin: 10px;
+   background-color: white;
+   border: none;
+   border-radius: 30px;
+}
+textarea{
+    width: 40%;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+}
+fieldset{
+    margin-left: 40px;
+    border: 1px solid red;
+}
+legend{
+    text-align: center;
+}
+.txt{
+   text-align: center;
+}

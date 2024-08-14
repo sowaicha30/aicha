@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+   
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 5px;
+}
+nav li a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    height: 80vh;
+}
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.chu{
+    margin: 50px;
+}
+.chu h2{
+    color: red;
+    margin-top: 8px;
+}
+.chu h1{
+    margin-top: 8px;
+    font-size: 2rem;
+
+}
+.chu p{
+    margin-top: 8px;
+}
+.chu button{
+    margin-top: 10px;
+}
+.chu button{
+    border: none;
+    padding: 10px;
+    background-color:red;
+    border-radius: 15px;
+    color: white;
+}
+.id i{
+    border-radius: 50%;
+    background-color: wheat;
+    padding: 10px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.img{
+    border-radius: 20px;
+}
+.logo{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*responsive design*/
+@media (max-width: 1200px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 990px){
+    nav{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 5rem 3% 2rem;
+    }
+    footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 740px){
+    nav{
+        display: block;
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+   /* ul{
+        flex-direction: column;
+    }*/
+    section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    section img{
+        max-width: 100%;
+        height: 300px;
+    }
+    section h1{
+       font-size: 3rem;
+    }
+    section p{
+       font-size: 1.5rem;
+    }
+}
+
